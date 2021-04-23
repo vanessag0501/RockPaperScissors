@@ -34,7 +34,7 @@ while True:
         else:
             print("Rock beats scissor. You lose") 
 
-    continuePlaying=raw_input("Do you want to play again? Y or N\n")
+    continuePlaying=raw_input("Do you want to play again? Y\y or N\n")
 
     if continuePlaying == 'n' or continuePlaying == 'N':
         break
